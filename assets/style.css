@@ -1,0 +1,79 @@
+body {
+    background-color: #E8E09A;
+    color:#343A40;
+    font-family: "Ubuntu", sans serif;
+    padding-top: 60px;
+    margin-bottom:-16px;
+
+}
+
+  
+/*------------------Quiz Section--------*/
+
+h2{
+    text-align: center;
+    color:#343A40;
+}
+/* answers */ 
+#ethioQuiz{
+   max-width: 80%;
+   margin: 20px auto;
+   height:500px;
+   background-color: #343A40;
+  }
+  
+  /* (B) QUESTIONS */
+  #question {
+    padding: 10px;
+    color:#E8E09A;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /*answers */
+.choice{
+    margin:30px 20px;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-gap: 10px;
+    color:#343A40;
+    text-transform: uppercase;
+}
+  
+.choice input {
+     display: none; 
+}
+
+.choice label {
+    background-color: #E8E09A;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #343A40;
+    margin-left:25%;
+}
+
+.choice label.correct {
+    background-color: #60a03f;
+}
+.choice label.wrong {
+    background: #FF3F00;
+    border: 1px solid #c78181;
+}
+
+
+
+
+
+
+
+
+
+.content-heading{
+    text-align:center;
+   /* padding-top:-20px;*/
+    padding-bottom:20px;
+}
